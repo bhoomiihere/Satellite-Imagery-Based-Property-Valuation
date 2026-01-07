@@ -28,14 +28,13 @@ The objective is to enhance traditional valuation models by incorporating visual
 ---
 
 ##  Project Structure
-- `data_fetcher.py` — downloads satellite images
-- `preprocessing.ipynb` — EDA and feature engineering
-- `model_training.ipynb` — model training and evaluation
-- `outputs/enrollno_final.csv` — final predictions
-- `outputs/enrollno_report.pdf` — project report
+
+- `statellite_price_prediction.ipynb`
+- download satellite images
+-  EDA and feature engineering
+-  model training and evaluation
+-  final predictions
+-  project report
 
 ---
 
-## ⚙️ Setup Instructions
-```bash
-pip install -r requirements.txt
