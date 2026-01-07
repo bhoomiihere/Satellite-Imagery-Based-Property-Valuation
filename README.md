@@ -1,6 +1,6 @@
 # Satellite Imagery Based Property Valuation
 
-## 📌 Overview
+##  Overview
 This project builds a multimodal regression pipeline to predict property prices using:
 1. Tabular housing attributes
 2. Satellite imagery fetched using geographic coordinates
@@ -9,13 +9,13 @@ The objective is to enhance traditional valuation models by incorporating visual
 
 ---
 
-## 📂 Dataset
+## Dataset
 - train(1).xlsx — contains target column `price`
 - test2.xlsx — contains features only
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 1. Exploratory Data Analysis (EDA)
 2. Feature Engineering
 3. Baseline Regression Models
@@ -27,7 +27,7 @@ The objective is to enhance traditional valuation models by incorporating visual
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 - `data_fetcher.py` — downloads satellite images
 - `preprocessing.ipynb` — EDA and feature engineering
 - `model_training.ipynb` — model training and evaluation
